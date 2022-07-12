@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <title>My-Profile</title>
+   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+   <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+   <style>
+    .container {
+        display: grid;
+        grid-template-columns: 4fr 8fr;
+        border: 1px solid gray;
+        width: 1000px;
+        box-shadow: 5px 5px 5px gray;
+    }
+    .left {
+        border-right: 1px solid lightgray;
+        box-shadow: 3px 3px 3px gray;
+        margin-right: 8px;
+        margin-bottom: 5px;
+        background-color: lightgrey;
+        margin-left: -13px;
+    }
+    .left img {
+       border-radius: 75px;
+       margin-top: 15px;
+       margin-left: 50px;
+       margin-bottom: 15px;
+    }
+   ul {
+    list-style: none;
+   }
+   li {
+    margin-bottom: 10px;
+    padding-left: 50px;
+   }
+   a {
+    text-decoration: none;
+   }
+   a:link {
+    color: black;
+   }
+   a:active {
+    color:red;
+   }
+   a:visited {
+    color:rgb(7, 116, 152);
+   }
+   .left h1 {
+    margin-left: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .left p {
+    margin-left: 50px;
+   }
+    .right {
+        background-image: url(../Public/images/Untitled1.png);
+        background-size: cover;
+        width: 700px;
+        margin-right: -13px;
+        margin-bottom: 5px;
+    }
+    .right div {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-top: 180px;
+        padding-left: 70px;
+    }
+    button {
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        font-family: arial;    
+    }
+   </style>
+    </head>
+    <body>
+     <div class="container">
+      <div class="left">
+         <div>
+            <img src="../Public/images/portfolio.jpg" width="150" height="150">
+            <h1>Soujanya Arkuti</h1>
+         <p><font style="color:rgb(17, 154, 199) ;">UI/UX DESIGNER</font></p>
+         <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+         </ul>
+         </div>
+         </div>
+      <div class="right">
+       <div>
+        <h1>I am <br> a Designer</h1>
+       <p>100% html5 bootstrap templates Made </p>
+       <button>VIEW PORTFOLIO<span class="bi bi-bag"></span></button>
+       </div>
+      </div>
+     </div>
+    </body>
+</html>
